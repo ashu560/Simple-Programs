@@ -4,11 +4,10 @@
 one_mile = 0.62137
 
 print("-----------------------")
-km = int(input("Enter KiloMeter : "))
-
+km = float(input("Enter KiloMeter : "))
 print(f"You entered {km} as kilometer.")
 
-miles = one_mile * float(km)
+miles = one_mile * km
 print("Miles is %0.2f " %miles )
 print("-----------------------")
 
